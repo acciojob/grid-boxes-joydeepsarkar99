@@ -3,7 +3,7 @@
 	width:90vw;
 	height:60vh;
 	display:grid;
-	grid-template-columns:repeat(4,1fr);
+	grid-template-columns:242.5px 242.5px 242.5px 242.5px;
 	grid-template-rows:124px 124px 124px 124px 124px;
 	grid-template-areas:
 	"a a a a"
