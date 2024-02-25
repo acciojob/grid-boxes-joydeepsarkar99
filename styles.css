@@ -1,1 +1,51 @@
 /*  your css code here. If applicable */
+#grid{
+	width:90vw;
+	height:60vh;
+	display:grid;
+	grid-template-columns:repeat(4,1fr);
+	grid-template-rows:repeat(5,1fr);
+	grid-template-areas:
+	"a a a a"
+	"b c d d"
+	"b e e f"
+	"b g h i"
+	"b j j j";
+	gap:5px;
+}
+#grid>div{
+	color:white;
+	background-color:green;
+	font-size:20px;
+	padding-left:4px;
+}
+#grid1{
+	grid-area:a;
+}
+#grid2{
+	grid-area:b;
+}
+#grid3{
+	grid-area:c;
+}
+#grid4{
+	grid-area:d;
+}
+#grid5{
+	grid-area:e;
+}
+#grid6{
+	grid-area:f;
+}
+#grid7{
+	grid-area:g;
+}
+#grid8{
+	grid-area:h;
+}
+#grid9{
+	grid-area:i;
+}
+#grid10{
+	grid-area:j;
+}
