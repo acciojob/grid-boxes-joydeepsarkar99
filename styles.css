@@ -4,7 +4,7 @@
 	height:60vh;
 	display:grid;
 	grid-template-columns:repeat(4,1fr);
-	grid-template-rows:repeat(5,1fr);
+	grid-template-rows:124px 124px 124px 124px 124px;
 	grid-template-areas:
 	"a a a a"
 	"b c d d"
